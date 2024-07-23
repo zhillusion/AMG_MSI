@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fa009842-538d-40d0-933d-77f5f9b86b9f" name="024">
+        <fileTransfer accessType="SFTP" host="connect.nma1.seetacloud.com" port="40457" sshConfigId="937aba0a-14c2-4c08-bfb0-734e1040d987" sshConfig="024">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a3700cfe-c332-48ba-9f08-4abc3a505326" name="041(项目级别)">
+        <fileTransfer accessType="SFTP" host="connect.nma1.seetacloud.com" port="47408" sshConfigId="d446aef2-fb43-40f0-a484-e0fce77e3573" sshConfig="041">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
