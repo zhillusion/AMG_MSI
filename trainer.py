@@ -1,6 +1,6 @@
 
-from my_dataset import MMGraphDataset
-from my_model import create_model
+from dataset import MMGraphDataset
+from model import create_model
 from torch_geometric.loader import DataLoader
 from omegaconf import OmegaConf
 import os
@@ -28,7 +28,7 @@ from const import (
 import gc
 from shutil import copyfile
 from torch.cuda.amp import GradScaler, autocast
-from my_model import FusionMLP, FusionTransformer, FusionMamba
+from model import FusionMLP, FusionTransformer, FusionMamba
 import torch_geometric
 
 

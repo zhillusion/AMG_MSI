@@ -1,4 +1,4 @@
-from my_trainer import MMTrainer
+from trainer import MMTrainer
 import argparse
 
 if __name__ == '__main__':
